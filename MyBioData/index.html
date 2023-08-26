@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/image/shubhamlogo.jpg">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/shubhamlogo.jpg"class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-end developer</p>
+                <h1>Hi , I`m <span>Shubham Upadhayay </span><br>From India.</h1>
+            </div>            
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Img Me (10).jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>I am an organised, efficient and hard working person. Highly accomplished and user-focused Front-end Developer adept in collaborating with UX and design teams to plan the technical writing and execution of functional specifications for websites and applications. Experienced in building multi-platform websites using Responsive Web Design/RWD.</p>
+
+                    <div class="tab-tittle">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Html</span><br>Structure of a Web Page</li>
+                            <li><span>Css</span><br>Style of web pages and user Interfaces</li>
+                            <li><span>React-Js</span><br>Interactive user interfaces and web applications</li>
+                            <li><span>React Bootstrap</span><br>UI development and design</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 2023-Current</span><br>Front-end Project.</li>
+                            <li><span>July 2022-Jan 2023</span><br>HDB Financial Services Ltd.</li>
+                            <li><span>Jan 2020-Nov 2020</span><br>Standard Chartered Finance Pvt Ltd.</li>
+                            <li><span>Dec 2017-Nov 2019</span><br>Paisabazaar Marketing and Consulting Pvt Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Full Stack Java Development at Ducat Infotech from Gurgaon.</li>
+                            <li><span>1016</span><br>BCA at Gagan College Of Management And Technology from Aligarh.</li>
+                            <li><span>2013</span><br>Higher Secondary at G S Hindu Inter College From Sikandra Rao.</li>
+                            <li><span>2011</span><br>Matriculation at Saraswati Vidya Mandir Inter College Sikandra Rao.</li>
+                        <ul>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list"> 
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid accusantium, porro quasi ex mollitia quam fugiat illum. Nemo, quam.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid accusantium, porro quasi ex mollitia quam fugiat illum. Nemo, quam.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquid accusantium, porro quasi ex mollitia quam fugiat illum. Nemo, quam.</p>
+                <a href="#">Learn more</a>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="/image/html.jpg" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The App Connected you to the talented people around the world . Download it from Play Store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/css.jpg" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The App Connected you to the talented people around the world . Download it from Play Store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/image/react js bLogo.jpg" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The App Connected you to the talented people around the world . Download it from Play Store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>    
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-envelope"></i>Shubham.upadhayay.789@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917669939529</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shubham-upadhayay-8641b4a1" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>                    
+                </div>
+                <a href="/image/CV - SHUBHAM UPADHAYAY.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Full Name" required>
+                    <input type="email" name="Email" placeholder="Your Email Address" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class=" btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Shubham Upadhayay. Made with <i class="fa-solid fa-heart"></i> by Shubham Tech.info </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents ){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzzSHMihtLNP4ztJrOBooDYpI76yYWR5pmk8tU5VX3U3jZU_zr6iUhE0JFzjC8rnIAwEg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
